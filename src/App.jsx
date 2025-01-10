@@ -1,11 +1,14 @@
-import BitcoinChart from "./components/chartComp";
+import Cards from "./components/cards";
 import Header from "./components/header";
+import Hero from "./components/hero";
+import Overview from "./components/overview";
 
 const App=()=>{
     return(
         <div>
             <Header/>
-            <BitcoinChart/>
+            <Hero/>
+            <Cards/>
         </div>
     )
 }

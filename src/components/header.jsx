@@ -3,7 +3,7 @@ import hamburger from '../assets/hamburger.png';
 import close from '../assets/close.png';
 const Header=()=>{
     return(
-        <div className='flex items-center justify-between md:py-5 py-4 md:px-10 px-4 border-b border-black'>
+        <div className='flex items-center justify-between md:py-5 py-4 md:px-10 px-4 border-b shadow-md'>
             <div className="logo">
                 <img src={logo} alt="logo" className='md:w-24 w-[100px]'/>
             </div>

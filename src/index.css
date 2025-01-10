@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+.graph-btn{
+    @apply  text-gray-500 text-[12px];
+}
+.graph-active-btn{
+  @apply bg-blue-200 text-blue-600 text-[12px] rounded-sm px-1;
+}

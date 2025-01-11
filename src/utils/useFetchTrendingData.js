@@ -4,7 +4,7 @@ import { useEffect } from "react";
 
 const useFetchTrendingData = () => {
   const setData = useSetRecoilState(trendingDataAtom); 
-  const key = import.meta.env.VITE_CG_API_KEY;
+  const key = 'CG-yA2eoEvxYTQedxubg1wKnX7X'
 
    useEffect(() => {
           const options = {

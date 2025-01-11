@@ -32,11 +32,11 @@ const HorizontalCard = () => {
 
 const Card=({index})=>{
     return(
-        <div className="card" key={index}>
+        <div className="card md:py-4" key={index}>
         <img src={cardIcon} className="w-10 h-10"></img>
-        <div className="texts flex flex-col gap-2">
-        <h1 className="font-semibold text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit</h1>
-        <p className="text-xs text-gray-600">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esseassumenda distinctio. Quia totam, perspiciatis architecto sint ratione voluptatum quod unde laudantium corporis, pariatur saepe itaque? Nisi voluptas</p>
+        <div className="texts flex flex-col gap-2 md:gap-4">
+        <h1 className="font-semibold text-sm md:text-[15px]">Lorem ipsum dolor sit amet consectetur, adipisicing elit</h1>
+        <p className="text-xs md:text-[13px] text-gray-600">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esseassumenda distinctio. Quia totam, perspiciatis architecto sint ratione voluptatum quod unde laudantium corporis, pariatur saepe itaque? Nisi voluptas</p>
       </div>
       </div>
     )

@@ -6,13 +6,13 @@ body{
     padding: 0;
     margin:0;
     box-sizing:border-box;
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Open Sans','Times New Roman', Times, serif;
 }
 
 /* hero-section styles */
 .box{
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
-    @apply px-4 my-2  border mx-2 rounded-md
+    @apply px-4 m-2 border rounded-md md:px-10
 }
 .graph-btn{
     @apply  text-gray-500 text-[12px];
@@ -59,22 +59,27 @@ body{
 
   /* horizontal scroll component styles */
   .horizontalCard {
+    scrollbar-width: none;
     @apply flex items-center justify-center relative 
   }
   
+  .horizontalCard::-webkit-scrollbar {
+    display: none; 
+  }
+
   .card-container {
     display: flex;
     overflow-x: auto;
     scroll-behavior: smooth;
     gap: 10px;
     padding: 10px 0;
-    /* width: 100%; */
-    scrollbar-width: none; /* Hide scrollbar in Firefox */
+    scrollbar-width: none; 
   }
-  
+
   .card-container::-webkit-scrollbar {
-    display: none; /* Hide scrollbar in Chrome and Safari */
+    display: none; 
   }
+ 
   
   .card {
     @apply flex shrink-0 w-[350px] min-h-[170px] bg-blue-100 justify-center py-4 px-2 relative gap-4 rounded-lg
@@ -84,7 +89,7 @@ body{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: white;
+    background-color: rgb(236, 228, 228);
     color: rgb(63, 61, 61);
     border: none;
     border-radius: 50%;
@@ -112,3 +117,12 @@ body{
     cursor: not-allowed;
   }
   
+
+  /* /////////////////////// */
+  .midheader{
+    scrollbar-width: 0;
+  }
+
+  .midheader::-webkit-scrollbar {
+    display: none; 
+  }

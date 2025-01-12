@@ -2,11 +2,10 @@ Here is a suggested README file for your GitHub repository:
 
 ---
 
-# KoinX
+KoinX
 Live Link - https://koin-50zgy3vb0-theabhishek26s-projects.vercel.app/
 
-![KoinX Logo](link-to-logo-if-available)  
-**Simplify your Cryptocurrency Portfolio Management**
+
 
 ## 🚀 Overview  
 KoinX is a powerful and user-friendly cryptocurrency portfolio management application. With KoinX, users can seamlessly track their investments, monitor real-time market trends, and get insights into their overall portfolio performance. Designed to be intuitive and efficient, KoinX caters to both beginners and experienced cryptocurrency traders.
